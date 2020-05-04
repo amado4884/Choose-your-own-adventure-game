@@ -130,16 +130,20 @@ nav.Top-Nav a {
   text-decoration: none;
 }
 div.Game-Screen {
+  margin: auto;
   border: solid 1px black;
-  height: 500vh;
-  width: 500vw;
+  height: 50vh;
+  width: 50vw;
 }
 div.Game-Screen p {
   color: red;
   text-align: center;
   padding: 5rem;
 }
-div#main {
+div.container {
+  margin: auto;
+}
+div.container div#main {
   margin: 0 auto;
   text-align: center;
 }
